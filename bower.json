@@ -1,5 +1,5 @@
 {
-  "name": "jQuery-UI-MultiSelect-Widget",
+  "name": "riptide-jquery-multiselect",
   "version": "1.14.3",
   "main": "/src/jquery.multiselect.min.js",
   "ignore": [
