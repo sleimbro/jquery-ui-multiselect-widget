@@ -79,14 +79,14 @@
           .addClass('ui-helper-reset')
           .html(function() {
             if(o.header === true) {
-              return '<li><a class="ui-multiselect-all" href="#"><span class="ui-icon ui-icon-check"></span><span>' + o.checkAllText + '</span></a></li><li><a class="ui-multiselect-none" href="#"><span class="ui-icon ui-icon-closethick"></span><span>' + o.uncheckAllText + '</span></a></li>';
+              return '<li><a class="ui-multiselect-all" href="#"><i class="icon-ok"></i><span>' + o.checkAllText + '</span></a></li><li><a class="ui-multiselect-none" href="#"><i class="icon-remove"></i><span>' + o.uncheckAllText + '</span></a></li>';
             } else if(typeof o.header === "string") {
               return '<li>' + o.header + '</li>';
             } else {
               return '';
             }
           })
-          .append('<li class="ui-multiselect-close"><a href="#" class="ui-multiselect-close"><span class="ui-icon ui-icon-circle-close"></span></a></li>')
+          .append('<li class="ui-multiselect-close"><a href="#" class="ui-multiselect-close"><i class="icon-remove-sign"></i></a></li>')
           .appendTo(header),
 
         checkboxContainer = (this.checkboxContainer = $('<ul />'))
