@@ -5,8 +5,6 @@
   "ignore": [
   ],
   "dependencies": {
-    "jquery": "jquery",
-    "jquery-ui": "jquery-ui"
   },
   "devDependencies": {
   }
